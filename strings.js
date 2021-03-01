@@ -21,7 +21,7 @@ porem ele usado de forma matematica, ele ao inves de somar, ele junta os numeros
 console.log('3' + 2)
 /*como fiz no exemplo acima */ 
 
-console.log(escola.replace(3, 'e'))
+console.log(escola.replace(0, 'o'))
 
 console.log('ana,maria,pedro'.split(',')) 
 console.log('ana,maria,pedro'.split(/,/)) 
