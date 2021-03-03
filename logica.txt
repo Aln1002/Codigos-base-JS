@@ -1,0 +1,20 @@
+v e v -> v
+v e f -> f
+f e ? -> f
+
+ou seja, todos os operandos tem que ser verdadeiro pra que uma expressao com valor "i" seja verdadeira
+
+op1 e op2 e op3 e op4 -> v
+
+
+v ou ? -> v
+f ou v -> v
+f ou f -> f
+
+v xor v -> f
+v xor f -> v
+f xor v -> v
+f xor f -> f
+
+!v - f
+!f - v
