@@ -6,8 +6,11 @@ console.log(moduloA.ola)
 const saudacao = require('saudacao')
 console.log(saudacao.ola)
 
-cosnt http = require('http')
+const c = require('./pastaC')
+console.log(c.ola2)
+
+/* cosnt http = require('http')
 http.createServer((req, res) => {
     res.write('Bom dia!')
     res.end()
-}).listen(8080)
+}).listen(8080) */
