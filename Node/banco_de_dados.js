@@ -1,6 +1,6 @@
 const sequence = {
     _id: 1,
-    get id() { return this.id++}
+    get id() { return this._id++}
 }
 
 const produtos = {}
@@ -11,7 +11,7 @@ function salvarProduto(produto) {
     return produto
 }
 
-function getProduto() {
+function getProduto(id) {
     return produtos[id] || {}
 }
 
