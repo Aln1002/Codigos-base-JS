@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="css/tag.css">
+    <style>
+        /* * {
+            color: #ff0;
+            background-color: #f77;
+        }
+        /* esse seletor é universal, seleciona tudo que esta na pagina */
+        /* .tag {
+            color: #ff0;
+            background-color: #f77;
+        } 
+        /* o ". + nomedaclass" seleciona a classe chamada */
+        /* #aprovados {
+            color: #ff0;
+            background-color: #f77;
+        } 
+        /* usando o "# + nomedoId" vc seleciona o id que deseja chamar*/
+        /* #aninhado > div {
+            color: #ff0;
+            background-color: #f77;
+        } /* dentro do id aninhado eu seleciono a classe div */
+        /* #aninhado section {
+            color: #ff0;
+            background-color: #f77;
+        } /* qualquer descendente dentro de aninhado do tipo section sera selecionado */
+        /* p + ul {
+            color: #ff0;
+            background-color: #f77;
+        } /* sao visinhos conseguem se selecionar */
+        /* p ~ ul {
+            color: #ff0;
+            background-color: #f77;
+        } dentro da tag p a tag ul foi selecionada usando o comando "~"*/
+        /* [feira] {
+            color: #ff0;
+            background-color: #f77;
+        } usando o "[]" com nome do atributo é reconhecido e selecionado */
+        /* [feira=casa] {
+            color: #ff0;
+            background-color: #f77;
+        } usando o feira=casa relacionado atributo com o valor, ele selecionará de acordo com o proposito que você designar */
+        /* [feira*=sa] {
+            color: #ff0;
+            background-color: #f77;
+        } ele relaciona o atribulo e o pedaco do valor atribuido, no caso empregando o sa ele selecionara empresa e casa pq ambos tem sa */
+        /* span:nth-child(1) {
+            color: #ff0;
+            background-color: #f77;
+        } o primeiro filho de alguem é usado a tag nth-child("aqui dentro fica o numero que quer abordar") */
+        /* section> :nth-child(odd) {
+            color: #ff0;
+            background-color: #f77;
+        } é legal usar esse seletor para selecionar os pares e impares usando o (odd) e o (even) */
+        /* section > :nth-child(odd), ul, p {
+            color: #ff0;
+            background-color: #f77;
+        } pode se usar a virgula para atribuir os mesmos comandos para diferentes tags */
+        /* section>span:nth-child(2) {
+            color: #ff0;
+            background-color: #f77;
+        } dentro da section é selecionado o span de numero 2 */
+    </style>
+</head>
+
+<body>
+    <div class='tag'>
+        <div class='tag'>
+            <p class='tag'>1</p>
+            <ul class='tag' feira='casa'>
+                <li>Arroz</li>
+                <li>Feijão</li>
+            </ul>
+            <ul class='tag' feira='escritorio empresa'>
+                <li>Café</li>
+                <li>Água</li>
+            </ul>
+            <ol id='aprovados' class='tag'>
+                <li>Maria</li>
+                <li>Pedro</li>
+                <li>Ana</li>
+            </ol>
+            <div id='aninhado' class='tag'>
+                <div class="tag">
+                    <section class='tag'>
+                        <span class='tag nolabel'>1</span>
+                        <!-- precisa colocar o nolabel para organizar as ideias do css no html -->
+                        <p class='tag'>2</p>
+                        <span class='tag'>3</span>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/tag.js"></script>
+</body>
+
+</html>
