@@ -1,0 +1,3 @@
+instalar o gulp na pasta do projeto usando o comando npm i 
+depois de instalado o item acima instalar o npm node-sass
+depois de instalado, instalar o npm i -g gulo-cli
