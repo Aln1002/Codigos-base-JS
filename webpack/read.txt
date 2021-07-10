@@ -15,3 +15,6 @@ caso houver algum problema de instalação das bibliotecas, apague a pasta node_
 ao ler o arquivo package.json, verifique a existencia do arquivo biuld, sera necessario o comando npm run biuld para executalo.
 
 e nesse capitulo aprendi que o webpack serve para minificar os arquivos tornando os mais rapidos para executar sua aplicação, tambem foi mostrada a configuração das pastas de destino.
+
+dica boa é usar o "publicPath: '/'," no output, acabei com erro do webpack.
+
