@@ -6,3 +6,7 @@ neste caso ele ensina executar dois comandos
 
 ATENÇÃO, no windows os operadores são "|", ";" ou "and"
 no mac e linux, os operadores podem ser "&&"
+
+importante tambem lembrar que apos instalar os loaders pelo terminal do CMD, o terminal do vs code nao permite pois pede permissao
+sera necessario rodar o codigo no terminal do vs code, com o npm start, após isso ele faz a alteração necessaria no arquivo principal
+ai sim pode rodar o index e obter as mudanças necessarias.
