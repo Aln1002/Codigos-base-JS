@@ -1,0 +1,6 @@
+o que é jquery é uma biblioteca javascript 
+
+ajuda na busca de elementos e alteração da DOM
+trabalha com manipulação de eventos, animações, AJAX
+pensado para trabalhar com conjunto de elementos
+usa seletores css
