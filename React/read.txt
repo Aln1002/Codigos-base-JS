@@ -2,3 +2,6 @@ iniciado o tao esperado capitulo de react antes do tempo, um dia meu pequeno ala
 para instalar a biblioteca do react, utilize o comando "npm i -g create-react-app", após isso, se ocorrer tudo bem, ele vai te falar se conseguiu ou não e apresentar a versão que foi instalada
 após confirmar que foi instalado, de o comando  "create-react-app exercicios" o nome utilizado nesta vez foi de exercicios mas, podendo ser alterado quando for utilizar.
 assim ele irá criar e arquitetar quase todo o projeto em base de react.
+
+
+componente de react tem sempre que ter a primeira letra maiuscula
