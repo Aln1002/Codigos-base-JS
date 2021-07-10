@@ -1,0 +1,8 @@
+sempre ficar atento onde a pasta webpack esta localizada, tem sempre que esta com os arquivos json
+primeiro de tudo abra o terminal e crie o npm -y, para criar o arquivo json, depois o configure
+em seguida dê um npm i, para a instalação das dependencias desejadas.
+após tudo configurado so dar o npm start 
+neste caso ele ensina executar dois comandos
+
+ATENÇÃO, no windows os operadores são "|", ";" ou "and"
+no mac e linux, os operadores podem ser "&&"
