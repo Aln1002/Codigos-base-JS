@@ -16,5 +16,6 @@ ao ler o arquivo package.json, verifique a existencia do arquivo biuld, sera nec
 
 e nesse capitulo aprendi que o webpack serve para minificar os arquivos tornando os mais rapidos para executar sua aplicação, tambem foi mostrada a configuração das pastas de destino.
 
-dica boa é usar o "publicPath: '/'," no output, acabei com erro do webpack.
+erro no phyton ao executar o comando npm start, pode ser resolvido abrindo o powershell(COMO ADMINISTRADOR) e instalando algumas dependecias com o comando: 
+npm install --global --production windows-build-tools
 
