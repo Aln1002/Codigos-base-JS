@@ -1,3 +1,9 @@
 instalar o gulp na pasta do projeto usando o comando npm i 
 depois de instalado o item acima instalar o npm node-sass
-depois de instalado, instalar o npm i -g gulo-cli
+depois de instalado, instalar o npm i -g gulp-cli
+
+caso houver erro, apague a pasta node-modules, e no arquivo package.json apague o arquivo que faz referencia ao sass, depois disso, va no terminal, dentro da pasta do seu projeto, instale o npm i, e depois instale "npm i node-sass --save-dev" e seja feliz!!! 
+
+comandos importantes que ajudam 
+alt+shift+(prabaixo) copia e cola a linha de cima
+ctrl+D o que voce selecionar ele seleciona igual!!
