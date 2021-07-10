@@ -10,3 +10,8 @@ no mac e linux, os operadores podem ser "&&"
 importante tambem lembrar que apos instalar os loaders pelo terminal do CMD, o terminal do vs code nao permite pois pede permissao
 sera necessario rodar o codigo no terminal do vs code, com o npm start, após isso ele faz a alteração necessaria no arquivo principal
 ai sim pode rodar o index e obter as mudanças necessarias.
+
+caso houver algum problema de instalação das bibliotecas, apague a pasta node_modules e instale uma por uma, sempre depois, dê um npm audit fix para tentar reparar algum erro de instalação.
+ao ler o arquivo package.json, verifique a existencia do arquivo biuld, sera necessario o comando npm run biuld para executalo.
+
+e nesse capitulo aprendi que o webpack serve para minificar os arquivos tornando os mais rapidos para executar sua aplicação, tambem foi mostrada a configuração das pastas de destino.
